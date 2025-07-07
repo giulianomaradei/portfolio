@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 8%;
+    --foreground: 0 0% 92%;
+
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 92%;
+
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 92%;
+
+    --primary: 200 25% 65%;
+    --primary-foreground: 0 0% 15%;
+
+    --secondary: 0 0% 16%;
+    --secondary-foreground: 0 0% 92%;
+
+    --muted: 0 0% 16%;
+    --muted-foreground: 0 0% 60%;
+
+    --accent: 210 15% 55%;
+    --accent-foreground: 0 0% 92%;
+
+    --destructive: 0 65% 55%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 200 25% 65%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 8%;
+    --sidebar-foreground: 0 0% 92%;
+    --sidebar-primary: 200 25% 65%;
+    --sidebar-primary-foreground: 0 0% 15%;
+    --sidebar-accent: 0 0% 16%;
+    --sidebar-accent-foreground: 0 0% 92%;
+    --sidebar-border: 0 0% 20%;
+    --sidebar-ring: 200 25% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-github;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary/30 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary/50;
+  }
+}
+
+@layer components {
+  .retro-glow {
+    text-shadow: 0 0 8px hsla(200, 25%, 65%, 0.3);
+  }
+
+  .gradient-text {
+    background: linear-gradient(45deg, hsl(200, 25%, 65%), hsl(210, 20%, 70%), hsl(220, 15%, 60%));
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 4s ease infinite;
+  }
+
+  @keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+} 
