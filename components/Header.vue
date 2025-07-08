@@ -22,7 +22,7 @@
 
       <div class="flex space-x-4">
         <a 
-          href="https://github.com" 
+          href="https://github.com/giulianomaradei" 
           class="text-muted-foreground hover:text-primary transition-colors"
           target="_blank"
           rel="noopener noreferrer"
@@ -30,7 +30,7 @@
           <Github :size="20" />
         </a>
         <a 
-          href="https://linkedin.com" 
+          href="https://linkedin.com/in/giuliano-maradei" 
           class="text-muted-foreground hover:text-primary transition-colors"
           target="_blank"
           rel="noopener noreferrer"
@@ -38,7 +38,7 @@
           <Linkedin :size="20" />
         </a>
         <a 
-          href="mailto:giuliano@example.com" 
+          href="mailto:giulianomaradei@gmail.com" 
           class="text-muted-foreground hover:text-primary transition-colors"
         >
           <Mail :size="20" />
