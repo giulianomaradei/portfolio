@@ -35,7 +35,7 @@
         </div>
       </div>
       
-      <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce sm:visible invisible">
         <div class="w-6 h-10 border-2 border-primary rounded-full flex justify-center">
           <div class="w-1 h-3 bg-primary rounded-full mt-2 animate-pulse"></div>
         </div>
