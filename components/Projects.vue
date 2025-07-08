@@ -77,7 +77,7 @@ import { ExternalLink, Code2 } from 'lucide-vue-next'
 const projects = [
   {
     title: 'Patio3D',
-    description: 'A powerful 3D patio configurator that processes hundreds of engineering pages to calculate the optimal build within milliseconds! It plays many roles and frees teams to focus on marketing!',
+    description: 'A powerful 3D patio configurator that processes hundreds of engineering logics to calculate the optimal build within milliseconds!',
     myRole: 'Worked on the project from the beginning, converting complex engineering logic to code, working on 3D rendering, creating cache systems for geological data used in engineering, where data analysis and logic were essential, plus working on all core functionalities.',
     tech: ['Nuxt.js', 'Laravel', 'TresJS', 'Multi-tenant', '3D Rendering', 'Engineering Logic'],
     live: 'https://patio3d.com/',
