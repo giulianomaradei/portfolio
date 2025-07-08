@@ -5,11 +5,11 @@
         {{ '< Skills />' }}
       </h2>
       
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="grid md:grid-cols-3 lg:grid-cols-3 gap-8">
         <div 
           v-for="category in skillCategories"
           :key="category.title"
-          class="bg-card border border-border rounded-lg p-6 hover:border-primary/50 transition-all duration-300 hover:scale-105 group"
+          class="bg-card border border-border rounded-lg p-6 hover:border-primary/50 transition-all duration-300 group"
         >
           <div class="flex items-center mb-4">
             <component 
@@ -41,26 +41,20 @@ const skillCategories = [
   {
     icon: Code,
     title: 'Frontend',
-    skills: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Vue.js'],
+    skills: ['Vue.js', 'Nuxt.js', 'Tailwind CSS', 'TypeScript', 'Three.js'],
     color: 'text-retro-blue'
   },
   {
     icon: Database,
     title: 'Backend',
-    skills: ['Node.js', 'Python', 'PostgreSQL', 'MongoDB', 'Redis'],
+    skills: ['Laravel', 'PHP', 'MySQL', "Pest"],
     color: 'text-retro-slate'
   },
   {
     icon: Globe,
     title: 'DevOps',
-    skills: ['Docker', 'AWS', 'CI/CD', 'Kubernetes', 'Linux'],
+    skills: ['Docker', 'CI/CD', 'Linux'],
     color: 'text-retro-steel'
-  },
-  {
-    icon: Zap,
-    title: 'Tools',
-    skills: ['Git', 'VS Code', 'Figma', 'Postman', 'Jest'],
-    color: 'text-retro-charcoal'
   }
 ]
 </script> 

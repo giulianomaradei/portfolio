@@ -6,18 +6,18 @@
       </h2>
       
       <div class="max-w-4xl mx-auto">
-        <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="grid md:grid-cols-2 gap-12">
           <div class="space-y-6">
             <p class="text-muted-foreground leading-relaxed">
-              I'm a passionate software developer with a love for creating innovative 
-              solutions that make a difference. My journey in tech has been driven by 
-              curiosity and a constant desire to learn and grow.
+              I build scalable web applications that solve real problems. From 3D configurators to social platforms, I've delivered solutions across multiple industries using Laravel and Nuxt.js.
             </p>
             
             <p class="text-muted-foreground leading-relaxed">
-              With experience across various technologies and frameworks, I specialize 
-              in building scalable web applications and solving complex technical challenges. 
-              I believe in writing clean, maintainable code that stands the test of time.
+              My competitive programming background drives me to find elegant solutions to complex challenges. I handle the full development cycle — from architecture to deployment.
+            </p>
+
+            <p class="text-muted-foreground leading-relaxed">
+              And i also can bench 120kg, what more a company would need? 🤔 
             </p>
             
             <div class="flex flex-wrap gap-2 mt-6">
@@ -31,15 +31,13 @@
             </div>
           </div>
           
-          <div class="bg-card border border-border rounded-lg p-6 font-mono text-sm">
+          <div class="bg-card border border-border rounded-lg p-6 font-mono text-sm h-fit">
             <div class="text-primary mb-2">const giuliano = {{ '{' }}</div>
             <div class="pl-4 space-y-1">
               <div><span class="text-accent">name:</span> <span class="text-yellow-400">"Giuliano Maradei"</span>,</div>
               <div><span class="text-accent">role:</span> <span class="text-yellow-400">"Software Developer"</span>,</div>
               <div><span class="text-accent">location:</span> <span class="text-yellow-400">"Earth"</span>,</div>
-              <div><span class="text-accent">experience:</span> <span class="text-yellow-400">"5+ years"</span>,</div>
               <div><span class="text-accent">passion:</span> <span class="text-yellow-400">"Building awesome stuff"</span>,</div>
-              <div><span class="text-accent">coffee:</span> <span class="text-yellow-400">true</span></div>
             </div>
             <div class="text-primary">{{ '}' }}</div>
           </div>
@@ -50,5 +48,5 @@
 </template>
 
 <script setup lang="ts">
-const traits = ['Problem Solver', 'Team Player', 'Continuous Learner', 'Innovation Driven']
+const traits = ['Problem Solver', 'Self-taught', 'Challenge-driven', 'Social', 'Strong']
 </script> 
