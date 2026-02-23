@@ -13,7 +13,7 @@
           Skills
         </a>
         <a href="#projects" class="text-muted-foreground hover:text-primary transition-colors">
-          Projects
+          Experience
         </a>
         <a href="#contact" class="text-muted-foreground hover:text-primary transition-colors">
           Contact
