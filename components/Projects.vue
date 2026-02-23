@@ -49,7 +49,7 @@
 <script setup lang="ts">
 const experiences = [
   {
-    role: 'Full-stack Developer',
+    role: 'FullStack Developer',
     company: 'RedLayers',
     location: 'London, United Kingdom · Remote',
     period: 'Jan 2024 – Aug 2025',
@@ -58,7 +58,7 @@ const experiences = [
     tech: ['Nuxt.js', 'Vue.js', 'Laravel', 'TypeScript', 'Stripe', 'Azure OpenAI']
   },
   {
-    role: 'Full Stack Developer',
+    role: 'FullStack Developer',
     company: 'Sync360',
     period: 'Apr 2023 – Dec 2023',
     location: 'Bragança Paulista, Brazil · Remote',
